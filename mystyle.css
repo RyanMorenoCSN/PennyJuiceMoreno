@@ -1,0 +1,372 @@
+@charset "utf-8"
+/* CSS Document */
+    body {
+    background-color: antiquewhite;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+h1, h2, h3 {
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 10px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    text-align: left
+    
+}
+
+h5 {
+    float: right;
+    margin-left: 630px;
+    margin-top: 5px;
+}
+
+blog {
+    float: left
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    wdith: 92.5%;    
+}
+
+article {
+    background: #ccc;
+    
+}
+
+article h3 [
+    float: left;
+    width: 95%;
+    height: 200px;
+    background: #ccc;
+    padding: 20px;
+    margin: auto;
+    margin-top: -20px;
+]
+
+article h4 {
+    float: left;
+    width: 95%
+    height: 10px;
+    background: #ccc;
+    padding: 20px;
+    margin-top; 0px;
+    font-size: 10px;
+    
+}
+
+table {
+    background: #ccc;
+    width:100%;
+    float: right;
+}
+
+#container{
+    background-color: white
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.header {
+    color: crimson;
+    text-align: left;
+}
+
+.content {
+    padding: 0;
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#b6d0ff;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+
+.nav li {
+    list-style: none;
+}
+
+.nav ul {
+    float: left;
+}
+    
+.nav ul li ul {
+    float: left;
+    list-style: none;
+    padding: relative;
+    
+}
+
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav ul li ul li a{
+    padding: 8px 10px;
+    }
+
+.nav ul li ul li a:hover {
+    background-color: #c4b0b0;
+}
+
+.topnav ul li {
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #E22124;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #bcc7db;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #bcc7db;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.slider_image {
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: left;
+    clear:both;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    width: 200px;
+    background-color: darkgrey;
+    color: aliceblue;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    clear: both;    
+}
+
+.flex-container2 > div {
+    background-color: chartreuse;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.footer {
+    text-align: center
+    background-color: chocolate
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: aqua;
+    background-content: center;
+}
+
+.flex-container3 > div [
+    background-color: aliceblue;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-aligned: center;
+    line-height: 25px;
+    font-size: 20px
+]
+
+.flex-container3 > div > h1 [
+    background-color: aliceblue;
+    color: #50aa35;
+    width: 100%;
+    margin: 10px;
+    text-aligned: center;
+    line-height: 25px;
+    font-size: 20px
+]
+
+.flex-container3 > div > h2 [
+    background-color: aliceblue;
+    color: #b14646;
+    width: 100%;
+    margin: 10px;
+    text-aligned: center;
+    line-height: 25px;
+    font-size: 20px
+]
+
+.flex-container3 > div > h3 [
+    background-color: aliceblue;
+    color: #4680b1;
+    width: 100%;
+    margin: 10px;
+    text-aligned: center;
+    line-height: 25px;
+    font-size: 20px
+]
+
+.carousel-wrapper{
+    height:400px;
+    position:relative;
+    width:800px;
+    margin:0 auto;   
+}
+
+.carousel-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+    left:30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg)0;
+}
+
+.arrow-next{
+    right:-30%;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+}
+
+.light{
+    color:aliceblue;
+}
+
+@media (max-width: 480px) {
+    .arrow .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+        }
+    }
+
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background:url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+}
+
+.item-2 {
+    background:url('https://static.pexels.com/photos/6586/alcohol-bar-drinks-party-large.jpg');
+        background-size:cover;
+}
+
+.item-3 {
+    background:url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+        background-size:cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
